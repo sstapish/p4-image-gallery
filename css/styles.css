@@ -27,9 +27,12 @@
 }
 .gallery .controls {
   position: absolute;
-  bottom: 0;
+  bottom: -120px;
   width: 100%;
   text-align: center;
+}
+.gallery .controls img {
+  border: 5px solid black;
 }
 .gallery .control-button {
   display: inline-block;
